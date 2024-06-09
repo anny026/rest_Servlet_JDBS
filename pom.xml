@@ -159,28 +159,6 @@
 
     <plugins>
 
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-compiler-plugin</artifactId>-->
-<!--        <version>3.8.1</version>-->
-
-<!--      </plugin>-->
-
-<!--      <plugin>-->
-<!--        <groupId>org.eclipse.jetty</groupId>-->
-<!--        <artifactId>jetty-maven-plugin</artifactId>-->
-<!--        <version>9.4.48.v20220622</version>-->
-<!--        <configuration>-->
-<!--          <webApp>-->
-<!--            <contextPath>/web</contextPath>-->
-<!--          </webApp>-->
-<!--          <httpConnector>-->
-<!--            <port>8888</port>-->
-<!--          </httpConnector>-->
-<!---->
-<!--        </configuration>-->
-<!--      </plugin>-->
-
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -241,16 +219,6 @@
 
 
 
-      <!-- Tomcat plugin -->
-<!--      <plugin>-->
-<!--        <groupId>org.apache.tomcat.maven</groupId>-->
-<!--        <artifactId>tomcat7-maven-plugin</artifactId>-->
-<!--        <version>2.2</version>-->
-<!--        <configuration>-->
-<!--          <path>/</path>-->
-<!--          <port>8088</port>-->
-<!--        </configuration>-->
-<!--      </plugin>-->
 
 
     </plugins>

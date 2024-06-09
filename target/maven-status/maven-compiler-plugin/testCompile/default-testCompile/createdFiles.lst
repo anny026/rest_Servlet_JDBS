@@ -1,0 +1,4 @@
+service\OrderServiceImplTest.class
+servlet\ShopServletTest.class
+servlet\UserControllerTest.class
+shop\model\repository\GoodDaoTest.class
