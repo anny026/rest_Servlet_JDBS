@@ -64,22 +64,6 @@
 
 
 
-<!---->
-<!--    <dependency>-->
-<!--      <groupId>org.junit.jupiter</groupId>-->
-<!--      <artifactId>junit-jupiter</artifactId>-->
-<!--      <version>RELEASE</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.junit.jupiter</groupId>-->
-<!--      <artifactId>junit-jupiter</artifactId>-->
-<!--      <version>RELEASE</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
-    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
-    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
 
       <!-- Only needed to run tests in a version of IntelliJ IDEA that bundles older versions -->
     <dependency>
@@ -212,11 +196,6 @@
 <!--          </argLine>-->
 <!--        </configuration>-->
 <!--      </plugin>-->
-
-
-
-
-
 
 
 
