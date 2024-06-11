@@ -1,24 +1,26 @@
 package shop.model.repository;
 
 
-import jakarta.servlet.ServletContextEvent;
-import jakarta.servlet.ServletContextListener;
-import jakarta.servlet.annotation.WebListener;
+//import jakarta.servlet.ServletContextEvent;
+//import jakarta.servlet.ServletContextListener;
+//import jakarta.servlet.annotation.WebListener;
+//
+//import java.io.FileInputStream;
+//import java.io.FileNotFoundException;
+//import java.io.IOException;
+//import java.io.InputStream;
+//import java.sql.Connection;
+//
+//import java.sql.DriverManager;
+//import java.sql.PreparedStatement;
+//import java.sql.SQLException;
+//import java.util.Properties;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.sql.Connection;
-
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.util.Properties;
-
-@WebListener
-public class ContextInitializer implements ServletContextListener {
-
+//@WebListener
+public class ContIni
+//        implements ServletContextListener
+{
+/*
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         Connection connection;
@@ -99,4 +101,6 @@ public class ContextInitializer implements ServletContextListener {
             e.printStackTrace();
         }
     }
+
+ */
 }

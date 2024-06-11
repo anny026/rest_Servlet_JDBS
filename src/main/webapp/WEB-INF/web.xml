@@ -5,9 +5,9 @@
          version="3.0">
   <display-name>Archetype Created Web Application</display-name>
 
-  <listener>
-    <listener-class>shop.model.repository.ContextInitializer</listener-class>
-  </listener>
+<!--  <listener>-->
+<!--    <listener-class>shop.model.repository.ContextInitializer</listener-class>-->
+<!--  </listener>-->
 
   <welcome-file-list>
     <welcome-file>page1.jsp</welcome-file>

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: shop.model.repository.GoodDaoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.44 s -- in shop.model.repository.GoodDaoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.09 s -- in shop.model.repository.GoodDaoTest

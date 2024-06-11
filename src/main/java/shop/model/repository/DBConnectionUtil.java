@@ -32,10 +32,19 @@ public class DBConnectionUtil {
                     URL = props.getProperty("db.host");
                     USERNAME = props.getProperty("username");
                     PASSWORD = props.getProperty("password");
-                    connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+                    try {
+                        Class.forName(driverName);
+                    } catch (ClassNotFoundException e) {
+                        throw new RuntimeException(e);
+                    }
+                    try {
+                        connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+                    } catch (SQLException e) {
+                        throw new RuntimeException(e);
+                    }
+
+//                    connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 //                connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/restService", "postgres", "pg88");
-                } catch (SQLException e) {
-                    e.printStackTrace();
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
